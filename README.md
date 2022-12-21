@@ -30,14 +30,15 @@ This should print the version number of nvm that you have installed.
 
 Install the version of Node.js that you want to use with nvm. For example, to install the latest version of Node.js, you can run the following command:
 
-Copy code
 ```python
 nvm install node
 ```
-You can also specify a specific version of Node.js to install. For example, to install version 12.18.4, you can run:
+You can also specify a specific version of Node.js to install. For example, to install version 16.14.1, you can run:
 
 Copy code
-nvm install 12.18.4
+```python
+nvm install 16.14.1
+```
 That's it! You should now have nvm set up on your system, and you can use it to manage multiple versions of Node.js.
 
 To switch between different versions of Node.js, you can use the nvm use command. For example, to switch to the version of Node.js that you installed in step 5, you can run:
