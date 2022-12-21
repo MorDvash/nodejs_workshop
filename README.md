@@ -35,7 +35,6 @@ nvm install node
 ```
 You can also specify a specific version of Node.js to install. For example, to install version 16.14.1, you can run:
 
-Copy code
 ```python
 nvm install 16.14.1
 ```
