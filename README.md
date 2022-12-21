@@ -1,5 +1,5 @@
 # Node setup:
-To set up nvm (Node Version Manager) using brew, follow these steps:
+To setup node we will start setup nvm (Node Version Manager) using brew, follow these steps:
 
 Make sure that you have brew installed on your system. You can check this by running the following command:
 
