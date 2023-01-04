@@ -59,7 +59,7 @@ Package.json is a file that contains metadata about a project in the JavaScript 
 npm init -y
 ```
 
-# 2. Typescript setup
+# 3. Typescript setup
 you can install TypeScript by running the following command in the terminal:
 ```python
 npm i typescript
