@@ -1,4 +1,4 @@
-# Node setup:
+# 1. Nodejs setup
 To setup node we will start setup nvm (Node Version Manager) using brew, follow these steps:
 
 Make sure that you have brew installed on your system. You can check this by running the following command:
@@ -51,3 +51,22 @@ You can also set a default version of Node.js to use when you open new terminal 
 ```python
 nvm alias default node
 ```
+
+
+# 2. npm and package.json
+Package.json is a file that contains metadata about a project in the JavaScript programming language. It is usually located in the root directory of a project and contains information such as the project's name, version, description, and a list of its dependencies.
+```python
+npm init -y
+```
+
+# 3. Typescript setup
+you can install TypeScript by running the following command in the terminal:
+```python
+npm i typescript
+```
+
+Then, create a new TypeScript configuration file by running
+```python
+tsc --init
+```
+This will create a tsconfig.json file in your project directory, which contains the TypeScript compiler options.
