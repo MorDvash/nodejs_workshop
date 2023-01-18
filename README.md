@@ -52,3 +52,11 @@ You can also set a default version of Node.js to use when you open new terminal 
 ```python
 nvm alias default node
 ```
+
+# 2. package.json
+Package.json is a file that contains metadata about a project in the JavaScript programming language. 
+
+It is usually located in the root directory of a project and contains information such as the project's name, version, description, and a list of its dependencies.
+```python
+npm init -y
+```
