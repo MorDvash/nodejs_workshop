@@ -53,10 +53,25 @@ You can also set a default version of Node.js to use when you open new terminal 
 nvm alias default node
 ```
 
-# 2. package.json
+## 2. package.json
 Package.json is a file that contains metadata about a project in the JavaScript programming language. 
 
 It is usually located in the root directory of a project and contains information such as the project's name, version, description, and a list of its dependencies.
 ```python
 npm init -y
+```
+
+## 3. Node.js with TypeScript
+A. Install TypeScript by running the following command:
+```python
+npm install typescript
+```
+B. To configure TypeScript compilation options, we need to create a tsconfig.json file in the root of your project.
+```python
+tsc --init
+```
+
+Note: Install the type definitions for the libraries you will be using by running the following command:
+```python
+npm install @types/${library_name}
 ```
