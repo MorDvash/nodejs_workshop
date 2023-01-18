@@ -2,14 +2,12 @@
   "name": "nodejsworkshop",
   "version": "1.0.0",
   "description": "To setup node we will start setup nvm (Node Version Manager) using brew, follow these steps:",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-
-  },
-  "devDependencies": {
 
   },
   "repository": {
