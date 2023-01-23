@@ -70,7 +70,7 @@ B. To configure TypeScript compilation options, we need to create a tsconfig.jso
 ```python
 tsc --init
 ```
-C. ts-node is a TypeScript execution engine and REPL for Node.js.
+C. ts-node is a TypeScript execution engine and for Node.js.
 ```python
 npm i ts-node
 ```
