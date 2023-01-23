@@ -12,3 +12,9 @@ function arithProg(a, d, n) {
 function geomProg(a, r, n) {
     return a * Math.pow(r, n - 1);
 }
+
+module.exports = {
+    fibonacci,
+    arithProg,
+    geomProg
+}

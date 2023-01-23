@@ -1,0 +1,26 @@
+{
+  "name": "nodejsworkshop",
+  "version": "1.0.0",
+  "description": "1. Use node LTS node version 2. Create package.json file 3. Add script to run the process 4. Implement this app with Commonjs  5. Implement this app with ES6 + TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "startTs": "ts-node appTs.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorDvash/nodejs_workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MorDvash/nodejs_workshop/issues"
+  },
+  "homepage": "https://github.com/MorDvash/nodejs_workshop#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
